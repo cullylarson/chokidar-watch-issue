@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    container_name: chokidar-watch-issue-app
+    image: "node:12"
+    user: "node"
+    working_dir: "/home/node/app"
+    volumes:
+      - "./:/home/node/app"
+    command: "npm run start"

@@ -1,0 +1,14 @@
+{
+    "name": "chokidar-watch-issue",
+    "version": "0.0.1",
+    "description": "Reproduce an error with chokidar watch and Docker.",
+    "scripts": {
+        "start": "node run.js",
+        "start:polling": "node run.js --polling"
+    },
+    "author": "Cully Larson",
+    "dependencies": {
+        "chokidar": "^3.4.3"
+    },
+    "devDependencies": {}
+}
